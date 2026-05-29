@@ -18,7 +18,20 @@
   <img src="./assets/covers/cover-vibe-coding.png" alt="Vibe Coding 小红书封面示例" width="30%" />
   <img src="./assets/covers/cover-yiwu-ai.png" alt="义乌 AI 商业封面示例" width="30%" />
   <img src="./assets/covers/cover-phone-dashboard.png" alt="手机信息仪表盘封面示例" width="30%" />
+
 </p>
+<p align="center">
+  <img width="50%" alt="image" src="https://github.com/user-attachments/assets/341dfa0e-e6de-403b-b137-130800da52ea" />
+  <img width="50%" alt="image" src="https://github.com/user-attachments/assets/b8170ff1-31f2-40a9-b195-2c15437a0c9a" />
+</p>
+<p align="center">
+  <img  width="50%" alt="image" src="https://github.com/user-attachments/assets/4085ca30-4a87-4fb1-9dc8-d63543e45512" />
+  <img  width="50%" alt="image" src="https://github.com/user-attachments/assets/f2067efe-a670-4ef2-aa9a-b73deb74c8f3" />
+
+</p>
+## 部分案例展示
+<img width="2531" height="1190" alt="image" src="https://github.com/user-attachments/assets/647cdd3f-19a2-404c-88b8-826b837e2494" />
+
 
 | 示例 | 适合主题 | 推荐风格 |
 | --- | --- | --- |
