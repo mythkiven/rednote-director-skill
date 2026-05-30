@@ -16,7 +16,7 @@
 
 <p align="center">
   <img src="./assets/covers/cover-vibe-coding.png" alt="Vibe Coding 小红书封面示例" width="30%" />
-  <img src="./assets/covers/cover-yiwu-ai.png" alt="义乌 AI 商业封面示例" width="30%" />
+  <img src="./assets/covers/cover-yiwu-ai.png" alt=" AI 商业封面示例" width="30%" />
   <img src="./assets/covers/cover-phone-dashboard.png" alt="手机信息仪表盘封面示例" width="30%" />
 
 </p>
@@ -41,7 +41,7 @@
 | 示例 | 适合主题 | 推荐风格 |
 | --- | --- | --- |
 | Vibe Coding | AI、Agent、技术观点、方法论 | 深色科技杂志风 + 黑白灰荧光绿冲击风 |
-| 义乌商户看懂 AI | 商业趋势、产业方案、外贸、跨境电商 | 高级商业提案风 + 全球贸易网络风 |
+| 商户看懂 AI | 商业趋势、产业方案、外贸、跨境电商 | 高级商业提案风 + 全球贸易网络风 |
 | 手机桌面信息仪表盘 | 真实案例、工具教程、工作流改造 | 手机截图改造风 + Notion 高级卡片风 |
 
 ## 适合人群
