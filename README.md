@@ -1,19 +1,20 @@
-# Redbook Director Skill｜Xiaohongshu / RedNote Carousel Generator
+# Redbook Director Skill｜小红书 / RedNote 图文轮播生成器
 
 [![Skill](https://img.shields.io/badge/Agent%20Skill-Redbook%20Director-111827?style=for-the-badge)](#)
-[![Language](https://img.shields.io/badge/Language-中文-ef4444?style=for-the-badge)](#)
+[![Language](https://img.shields.io/badge/Language-中文-ef4444?style=for-the-badge)](README.md)
+[![English](https://img.shields.io/badge/English-README.en.md-0ea5e9?style=for-the-badge)](README.en.md)
 [![Platform](https://img.shields.io/badge/Platform-Xiaohongshu%20%2F%20RedNote-ef4444?style=for-the-badge)](#)
 [![Canvas](https://img.shields.io/badge/Canvas-3%3A4%20Carousel-22c55e?style=for-the-badge)](#)
 [![Style Library](https://img.shields.io/badge/Styles-24%20Built--in-0ea5e9?style=for-the-badge)](#)
 [![License](https://img.shields.io/badge/License-MIT-64748b?style=for-the-badge)](#)
 
+**中文** · [English README](README.en.md)
+
 <p align="center">
-  <img src="./assets/covers/github-social-preview.png" alt="Redbook Director Skill - Xiaohongshu / RedNote carousel generator" width="100%" />
+  <img src="./assets/covers/github-social-preview.png" alt="Redbook Director Skill - 小红书 / RedNote 图文轮播生成器" width="100%" />
 </p>
 
-Redbook Director Skill is a platform-agnostic Agent Skill for Xiaohongshu / RedNote carousel generation, visual direction, AI image prompts, and RED book content workflows. It works with compatible agent clients such as Cursor, Claude, Codex, and other local or cloud AI coding assistants.
-
-Redbook Director Skill 是一个用于规划小红书 / Xiaohongshu / RedNote 图文轮播的通用 Agent Skill，可用于 Cursor、Claude、Codex 以及其他兼容 Agent 客户端。它不是普通文案助手，而是一个“视觉导演”：先判断内容任务，再选择适合的视觉风格，最后输出完整图文结构、逐页视觉方案、AI image prompts、发布文案和自检清单。
+Redbook Director Skill 是一个用于规划小红书 / Xiaohongshu / RedNote 图文轮播的通用 Agent Skill，可用于 Cursor、Claude、Codex 以及其他兼容 Agent 客户端。它不是普通文案助手，而是一个「视觉导演」：先判断内容任务，再选择适合的视觉风格，最后输出完整图文结构、逐页视觉方案、AI image prompts、发布文案和自检清单。
 
 Keywords: Xiaohongshu carousel generator, RedNote carousel generator, Xiaohongshu content generator, RedNote content creation, RED book visual design, Xiaohongshu post template, RedNote carousel prompts, AI image prompts, Agent Skill, Cursor skill, Claude skill, 小红书图文, 小红书封面, 小红书运营, 内容创作工作流。
 
@@ -29,52 +30,27 @@ git clone https://github.com/mythkiven/redbook-director-skill.git ~/.agents/skil
 Use $redbook-director-skill. 帮我把这个选题做成 6 页小红书图文，输出风格判断、页面结构、图像提示词和发布文案。
 ```
 
-## English Quick Start
-
-Install the skill:
-
-```bash
-git clone https://github.com/mythkiven/redbook-director-skill.git ~/.agents/skills/redbook-director-skill
-```
-
-Use it as a Xiaohongshu / RedNote carousel generator:
-
-```text
-Use $redbook-director-skill. Turn this topic into a 6-page Xiaohongshu / RedNote carousel. Include the visual style rationale, page-by-page layout, AI image prompts, caption, hashtags, and review checklist.
-```
-
-Typical outputs:
-
-- Xiaohongshu / RedNote carousel strategy
-- cover hook and page-by-page visual direction
-- 3:4 image prompt templates for each page
-- caption, hashtags, and comment prompt
-- visual quality checklist for readability and premium design
-
 ## 封面示例
 
 以下示例图用于展示本 Skill 默认偏好的小红书 3:4 封面方向：高级、清晰、手机端可读，避免廉价 AI 模板感。
 
 <p align="center">
   <img src="./assets/covers/cover-vibe-coding.png" alt="Vibe Coding 小红书封面示例" width="30%" />
-  <img src="./assets/covers/cover-yiwu-ai.png" alt=" AI 商业封面示例" width="30%" />
+  <img src="./assets/covers/cover-yiwu-ai.png" alt="AI 商业封面示例" width="30%" />
   <img src="./assets/covers/cover-phone-dashboard.png" alt="手机信息仪表盘封面示例" width="30%" />
-
 </p>
 <p align="center">
   <img width="45%" alt="image" src="https://github.com/user-attachments/assets/341dfa0e-e6de-403b-b137-130800da52ea" />
   <img width="45%" alt="image" src="https://github.com/user-attachments/assets/b8170ff1-31f2-40a9-b195-2c15437a0c9a" />
 </p>
 <p align="center">
-  <img  width="45%" alt="image" src="https://github.com/user-attachments/assets/4085ca30-4a87-4fb1-9dc8-d63543e45512" />
-  <img  width="45%" alt="image" src="https://github.com/user-attachments/assets/f2067efe-a670-4ef2-aa9a-b73deb74c8f3" />
-
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/4085ca30-4a87-4fb1-9dc8-d63543e45512" />
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/f2067efe-a670-4ef2-aa9a-b73deb74c8f3" />
 </p>
 
 ## 部分案例展示
+
 <img width="2531" height="1190" alt="image" src="https://github.com/user-attachments/assets/647cdd3f-19a2-404c-88b8-826b837e2494" />
-
-
 
 | 示例 | 适合主题 | 推荐风格 |
 | --- | --- | --- |
@@ -174,7 +150,7 @@ redbook-director-skill/
 - 借鉴封面冲击力
 - 不借鉴哪些元素
 
-不要只说“按这个风格”，要指出可复用的视觉特征。
+不要只说「按这个风格」，要指出可复用的视觉特征。
 
 ## 如何扩展自己的风格
 
@@ -196,12 +172,12 @@ redbook-director-skill/
 
 - 新增一个 `references/style-XX-*.md` 按需风格文件
 - `references/style_system.md` 风格索引
-- `assets/style_extension_template.md` 可作为新增风格的填写模板。
+- `assets/style_extension_template.md` 可作为新增风格的填写模板
 - 必要时增加 `examples/style_reference_notes.md`
 
 ## 如何维护 examples
 
-示例不是展示文采，而是展示“可复用决策”。每个示例应包含：
+示例不是展示文采，而是展示「可复用决策」。每个示例应包含：
 
 - 输入主题
 - 内容类型判断
@@ -223,4 +199,6 @@ redbook-director-skill/
 - 提示词包含画幅、布局、文字区域、字体、配色、主视觉、留白和禁止项。
 - 避免廉价 AI 科技风、PPT 感、信息过载和文字不可读。
 
-基于 ziguishian/xhs-visual-director-skill 二次重构
+---
+
+基于 [ziguishian/xhs-visual-director-skill](https://github.com/ziguishian/xhs-visual-director-skill) 二次重构
