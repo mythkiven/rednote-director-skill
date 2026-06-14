@@ -4,4 +4,4 @@ Thumbs.db
 *.log
 .env
 .env.*
-
+.codebase-memory/

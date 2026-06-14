@@ -34,9 +34,9 @@ description: Use this skill when planning, redesigning, or reviewing Xiaohongshu
 
 按任务需要读取项目内资源，不要一次性加载全部文档：
 
-- 需要选择风格或解释风格依据时，读取 `references/style_system.md`。
+- 需要选择风格或解释风格依据时，先读取 `references/style_system.md`，再只读取最终候选的 1-3 个 `references/style-XX-*.md` 文件。
 - 需要规划封面、内页、结尾页结构时，读取 `references/page_structure_rules.md`。
-- 需要生成图像提示词时，读取 `assets/image_prompt_template.md` 和 `references/prompt_rules.md`。
+- 需要生成图像提示词时，读取 `references/prompt_rules.md`、`assets/image_prompt_template.md` 和本次选定风格对应的 `references/style-XX-*.md`；不要整批读取所有风格文件。
 - 需要审查页面高级感和可读性时，读取 `assets/visual_review_checklist.md` 和 `references/anti_patterns.md`。
 - 需要快速套用完整输出格式时，读取 `assets/xhs_carousel_plan_template.md`。
 - 需要参考真实案例时，优先读取 `examples/style_reference_notes.md`，再按主题读取其他 examples。
@@ -136,7 +136,7 @@ description: Use this skill when planning, redesigning, or reviewing Xiaohongshu
 4. 判断信息密度：低、中、高、极高。
 5. 从风格库选择主风格和辅助风格，并说明不建议使用的风格。
 
-参考风格库见 `references/style_system.md`。
+参考风格库索引见 `references/style_system.md`；具体风格定义和图像提示词模板分散在对应的 `references/style-XX-*.md` 文件中，按需读取。
 
 ### 风格组合规则
 

@@ -171,8 +171,8 @@ redbook-director-skill/
 
 同时更新：
 
-- `references/style_system.md`
-- `assets/image_prompt_template.md`
+- 新增一个 `references/style-XX-*.md` 按需风格文件
+- `references/style_system.md` 风格索引
 - `assets/style_extension_template.md` 可作为新增风格的填写模板。
 - 必要时增加 `examples/style_reference_notes.md`
 

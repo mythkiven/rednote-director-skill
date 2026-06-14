@@ -14,7 +14,7 @@
 - 文件结构必须清晰，新增内容要放到对应目录。
 - `README.md` 要告诉用户如何使用这个 Skill，而不是只介绍概念。
 - 风格库必须可扩展。
-- 新增风格时必须同时更新 `references/style_system.md` 和 `assets/image_prompt_template.md`。
+- 新增风格时必须新增一个 `references/style-XX-*.md` 按需文件，并同步更新 `references/style_system.md` 索引。
 - 任何输出都必须先判断内容，再选择风格。
 - 不要默认套黑色科技风。
 - 不要把可读的风格判断报告写成隐藏思考链。
@@ -23,7 +23,8 @@
 
 - `SKILL.md`：Agent 的触发场景、工作流、默认输出格式、审查规则。
 - `agents/openai.yaml`：Codex UI 元数据；当 Skill 名称、定位或默认使用方式变化时同步更新。
-- `references/style_system.md`：风格库、风格组合规则、内容类型到风格的映射表。
+- `references/style_system.md`：风格库索引、风格组合规则、内容类型到风格的映射表。
+- `references/style-XX-*.md`：单个风格的完整定义、适用范围、版式结构、图像提示词模板和负面提示词。
 - `references/page_structure_rules.md`：封面、内页、结尾页的页面结构规则。
 - `references/prompt_rules.md`：图像生成提示词写法、负面提示词规则、文字区域规划。
 - `references/anti_patterns.md`：用户不喜欢的风格和避免方法。
@@ -47,10 +48,9 @@
 
 ## 新增风格要求
 
-新增风格时，先使用 `assets/style_extension_template.md` 填完整，再同步更新：
+新增风格时，先使用 `assets/style_extension_template.md` 填完整，保存为新的 `references/style-XX-*.md`，再同步更新：
 
 - `references/style_system.md`
-- `assets/image_prompt_template.md`
 - `examples/style_reference_notes.md`
 
 如果新增风格面向一个明确行业，例如外贸、电商、教育、咨询、文旅，至少补一个行业主题案例到 `examples/`。

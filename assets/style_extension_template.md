@@ -1,6 +1,6 @@
 # 新增视觉风格模板
 
-复制本模板到 `references/style_system.md`，再同步为 `assets/image_prompt_template.md` 增加提示词模板。
+复制本模板为新的 `references/style-XX-your-style.md` 文件，再同步更新 `references/style_system.md` 的索引表。
 
 ## 风格名称
 
@@ -60,4 +60,3 @@
 - [ ] 是否有可复制的构图规则。
 - [ ] 是否有清晰的负面提示词。
 - [ ] 是否能和已有风格库区分开。
-
