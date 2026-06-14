@@ -1,11 +1,11 @@
 ---
-name: redbook-director-skill
+name: rednote-director-skill
 description: Use this skill when planning, redesigning, or reviewing Xiaohongshu / RedNote carousel visuals, covers, 3:4 image posts, page-by-page visual direction, image-generation prompts, style selection, layout critique, or captions. It acts as a senior visual director for 小红书图文, not a generic copywriting assistant.
 ---
 
 # 小红书高级图文视觉导演
 
-英文名：Redbook Director Skill
+英文名：RedNote Director Skill
 
 ## Skill 定位
 

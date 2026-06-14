@@ -1,7 +1,7 @@
 interface:
-  display_name: "Redbook Director Skill"
+  display_name: "RedNote Director Skill"
   short_description: "小红书高级图文视觉导演"
   brand_color: "#111827"
-  default_prompt: "Use $redbook-director-skill to turn this topic into a high-end Xiaohongshu 3:4 carousel with style judgment, page planning, and image prompts."
+  default_prompt: "Use $rednote-director-skill to turn this topic into a high-end Xiaohongshu 3:4 carousel with style judgment, page planning, and image prompts."
 policy:
   allow_implicit_invocation: true

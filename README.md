@@ -1,6 +1,6 @@
-# Redbook Director Skill｜小红书 / RedNote 图文轮播生成器
+# RedNote Director Skill｜小红书 / RedNote 图文轮播生成器
 
-[![Skill](https://img.shields.io/badge/Agent%20Skill-Redbook%20Director-111827?style=for-the-badge)](#)
+[![Skill](https://img.shields.io/badge/Agent%20Skill-RedNote%20Director-111827?style=for-the-badge)](#)
 [![Language](https://img.shields.io/badge/Language-中文-ef4444?style=for-the-badge)](README.md)
 [![English](https://img.shields.io/badge/English-README.en.md-0ea5e9?style=for-the-badge)](README.en.md)
 [![Platform](https://img.shields.io/badge/Platform-Xiaohongshu%20%2F%20RedNote-ef4444?style=for-the-badge)](#)
@@ -11,7 +11,7 @@
 **中文** · [English README](README.en.md)
 
 <p align="center">
-  <img src="./assets/covers/github-social-preview.png" alt="Redbook Director Skill - 小红书 / RedNote 图文轮播生成器" width="100%" />
+  <img src="./assets/covers/github-social-preview.png" alt="RedNote Director Skill - 小红书 / RedNote 图文轮播生成器" width="100%" />
 </p>
 
 面向**小红书 / RedNote 创作者**的 Agent Skill：把选题、草稿、截图或参考图，规划成可直接落地的高级图文轮播。它不是泛泛的文案助手，而是「视觉导演」——先判断内容类型与传播目标，再匹配视觉风格，最后输出页面结构、逐页构图、AI 生图提示词、标题正文标签和自检清单。支持 Cursor、Claude、Codex 等兼容 Agent 客户端。
@@ -21,13 +21,13 @@
 ## 快速安装
 
 ```bash
-git clone https://github.com/mythkiven/redbook-director-skill.git ~/.agents/skills/redbook-director-skill
+git clone https://github.com/mythkiven/rednote-director-skill.git ~/.agents/skills/rednote-director-skill
 ```
 
 使用时可以直接说：
 
 ```text
-Use $redbook-director-skill. 帮我把这个选题做成 6 页小红书图文，输出风格判断、页面结构、图像提示词和发布文案。
+Use $rednote-director-skill. 帮我把这个选题做成 6 页小红书图文，输出风格判断、页面结构、图像提示词和发布文案。
 ```
 
 ## 封面示例
@@ -96,7 +96,7 @@ Use $redbook-director-skill. 帮我把这个选题做成 6 页小红书图文，
 本仓库已按标准 Skill 目录组织：仓库根目录就是可安装 Skill 目录，根目录直接包含 `SKILL.md`。
 
 ```text
-redbook-director-skill/
+rednote-director-skill/
 ├── SKILL.md
 ├── agents/openai.yaml
 ├── references/
@@ -106,7 +106,7 @@ redbook-director-skill/
     └── covers/
 ```
 
-安装时请复制或软链接整个 `redbook-director-skill/` 目录，不要只复制 `SKILL.md`。`references/`、`assets/` 和 `examples/` 是 Skill 运行时按需读取的配套资源。
+安装时请复制或软链接整个 `rednote-director-skill/` 目录，不要只复制 `SKILL.md`。`references/`、`assets/` 和 `examples/` 是 Skill 运行时按需读取的配套资源。
 
 ## 输入示例
 

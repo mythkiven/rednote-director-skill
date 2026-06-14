@@ -1,6 +1,6 @@
-# Redbook Director Skill｜Xiaohongshu / RedNote Carousel Generator
+# RedNote Director Skill｜Xiaohongshu / RedNote Carousel Generator
 
-[![Skill](https://img.shields.io/badge/Agent%20Skill-Redbook%20Director-111827?style=for-the-badge)](#)
+[![Skill](https://img.shields.io/badge/Agent%20Skill-RedNote%20Director-111827?style=for-the-badge)](#)
 [![Language](https://img.shields.io/badge/Language-English-0ea5e9?style=for-the-badge)](README.en.md)
 [![中文](https://img.shields.io/badge/中文-README.md-ef4444?style=for-the-badge)](README.md)
 [![Platform](https://img.shields.io/badge/Platform-Xiaohongshu%20%2F%20RedNote-ef4444?style=for-the-badge)](#)
@@ -11,23 +11,23 @@
 [中文 README](README.md) · **English**
 
 <p align="center">
-  <img src="./assets/covers/github-social-preview.png" alt="Redbook Director Skill - Xiaohongshu / RedNote carousel generator" width="100%" />
+  <img src="./assets/covers/github-social-preview.png" alt="RedNote Director Skill - Xiaohongshu / RedNote carousel generator" width="100%" />
 </p>
 
-Redbook Director Skill is a platform-agnostic Agent Skill for **Xiaohongshu / RedNote creators** (primarily Chinese-speaking audiences). It turns topics, drafts, screenshots, or reference images into publish-ready premium carousel posts—not generic copy, but full visual direction: content judgment, style selection, page structure, per-page layout, AI image prompts, captions, hashtags, and a self-review checklist. Works with Cursor, Claude, Codex, and other compatible agent clients.
+RedNote Director Skill is a platform-agnostic Agent Skill for **Xiaohongshu / RedNote creators** (primarily Chinese-speaking audiences). It turns topics, drafts, screenshots, or reference images into publish-ready premium carousel posts—not generic copy, but full visual direction: content judgment, style selection, page structure, per-page layout, AI image prompts, captions, hashtags, and a self-review checklist. Works with Cursor, Claude, Codex, and other compatible agent clients.
 
 **Keywords**: Xiaohongshu carousel generator, RedNote carousel generator, Xiaohongshu content generator, Xiaohongshu post template, Xiaohongshu cover design, AI image prompts, 小红书图文, 小红书封面, 小红书运营, Agent Skill, Cursor skill, Claude skill, 3:4 carousel, visual director workflow.
 
 ## Quick Install
 
 ```bash
-git clone https://github.com/mythkiven/redbook-director-skill.git ~/.agents/skills/redbook-director-skill
+git clone https://github.com/mythkiven/rednote-director-skill.git ~/.agents/skills/rednote-director-skill
 ```
 
 Example prompt:
 
 ```text
-Use $redbook-director-skill. Turn this topic into a 6-page Xiaohongshu / RedNote carousel. Include the visual style rationale, page-by-page layout, AI image prompts, caption, hashtags, and review checklist.
+Use $rednote-director-skill. Turn this topic into a 6-page Xiaohongshu / RedNote carousel. Include the visual style rationale, page-by-page layout, AI image prompts, caption, hashtags, and review checklist.
 ```
 
 Typical outputs:
@@ -104,7 +104,7 @@ Install or reference this directory as an Agent Skill, then give the agent a top
 This repo follows the standard Skill layout: the repo root is the installable Skill directory and includes `SKILL.md` at the top level.
 
 ```text
-redbook-director-skill/
+rednote-director-skill/
 ├── SKILL.md
 ├── agents/openai.yaml
 ├── references/
@@ -114,7 +114,7 @@ redbook-director-skill/
     └── covers/
 ```
 
-Copy or symlink the entire `redbook-director-skill/` directory—not just `SKILL.md`. `references/`, `assets/`, and `examples/` are loaded on demand at runtime.
+Copy or symlink the entire `rednote-director-skill/` directory—not just `SKILL.md`. `references/`, `assets/`, and `examples/` are loaded on demand at runtime.
 
 ## Input Example
 
