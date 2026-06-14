@@ -1,14 +1,29 @@
-# 小红书高级图文视觉导演
+# Redbook Director Skill｜小红书高级图文视觉导演
 
-英文名：XHS Visual Director
+英文名：Redbook Director Skill / XHS Visual Director
 
-[![Skill](https://img.shields.io/badge/Codex%20Skill-XHS%20Visual%20Director-111827?style=for-the-badge)](#)
+[![Skill](https://img.shields.io/badge/Codex%20Skill-Redbook%20Director-111827?style=for-the-badge)](#)
 [![Language](https://img.shields.io/badge/Language-中文-ef4444?style=for-the-badge)](#)
-[![Canvas](https://img.shields.io/badge/Canvas-3%3A4%20XHS-22c55e?style=for-the-badge)](#)
+[![Platform](https://img.shields.io/badge/Platform-Xiaohongshu%20%2F%20RedNote-ef4444?style=for-the-badge)](#)
+[![Canvas](https://img.shields.io/badge/Canvas-3%3A4%20Carousel-22c55e?style=for-the-badge)](#)
 [![Style Library](https://img.shields.io/badge/Styles-24%20Built--in-0ea5e9?style=for-the-badge)](#)
 [![License](https://img.shields.io/badge/License-MIT-64748b?style=for-the-badge)](#)
 
-这是一个用于规划小红书图文的 Agent Skill。它不是普通文案助手，而是一个“视觉导演”：先判断内容任务，再选择适合的视觉风格，最后输出完整图文结构、逐页视觉方案、图像生成提示词、发布文案和自检清单。
+Redbook Director Skill 是一个用于规划小红书 / Xiaohongshu / RedNote 图文轮播的 Codex Agent Skill。它不是普通文案助手，而是一个“视觉导演”：先判断内容任务，再选择适合的视觉风格，最后输出完整图文结构、逐页视觉方案、AI image prompts、发布文案和自检清单。
+
+关键词：小红书图文、小红书封面、小红书运营、Xiaohongshu carousel、RedNote content、RED book visual design、AI image prompts、Codex Skill、Agent Skill、内容创作工作流。
+
+## 快速安装
+
+```bash
+git clone https://github.com/mythkiven/redbook-director-skill.git ~/.agents/skills/redbook-director-skill
+```
+
+使用时可以直接说：
+
+```text
+Use $redbook-director-skill. 帮我把这个选题做成 6 页小红书图文，输出风格判断、页面结构、图像提示词和发布文案。
+```
 
 ## 封面示例
 
