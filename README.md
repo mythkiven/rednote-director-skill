@@ -76,9 +76,6 @@ Typical outputs:
 ## 部分案例展示
 <img width="2531" height="1190" alt="image" src="https://github.com/user-attachments/assets/647cdd3f-19a2-404c-88b8-826b837e2494" />
 
-## 使用示例
-<img width="100%" alt="image" src="https://github.com/user-attachments/assets/03bcbe5e-3018-47ad-8209-a9aecd0f9281" />
-
 
 
 | 示例 | 适合主题 | 推荐风格 |
@@ -227,3 +224,5 @@ redbook-director-skill/
 - 每页只承担一个主要传播任务。
 - 提示词包含画幅、布局、文字区域、字体、配色、主视觉、留白和禁止项。
 - 避免廉价 AI 科技风、PPT 感、信息过载和文字不可读。
+
+基于 ziguishian/xhs-visual-director-skill 二次重构
