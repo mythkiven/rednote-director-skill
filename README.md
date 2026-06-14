@@ -1,4 +1,4 @@
-# Redbook Director Skill｜小红书高级图文视觉导演
+# Redbook Director Skill｜Xiaohongshu / RedNote Carousel Generator
 
 英文名：Redbook Director Skill / XHS Visual Director
 
@@ -9,9 +9,15 @@
 [![Style Library](https://img.shields.io/badge/Styles-24%20Built--in-0ea5e9?style=for-the-badge)](#)
 [![License](https://img.shields.io/badge/License-MIT-64748b?style=for-the-badge)](#)
 
+<p align="center">
+  <img src="./assets/covers/github-social-preview.png" alt="Redbook Director Skill - Xiaohongshu / RedNote carousel generator" width="100%" />
+</p>
+
+Redbook Director Skill is a Xiaohongshu / RedNote carousel generator and Codex Agent Skill for planning high-quality social media carousels. It turns a topic, draft, screenshot, product idea, or reference style into a visual direction report, page-by-page carousel structure, image-generation prompts, captions, hashtags, and a review checklist.
+
 Redbook Director Skill 是一个用于规划小红书 / Xiaohongshu / RedNote 图文轮播的 Codex Agent Skill。它不是普通文案助手，而是一个“视觉导演”：先判断内容任务，再选择适合的视觉风格，最后输出完整图文结构、逐页视觉方案、AI image prompts、发布文案和自检清单。
 
-关键词：小红书图文、小红书封面、小红书运营、Xiaohongshu carousel、RedNote content、RED book visual design、AI image prompts、Codex Skill、Agent Skill、内容创作工作流。
+Keywords: Xiaohongshu carousel generator, RedNote carousel generator, Xiaohongshu content generator, RedNote content creation, RED book visual design, Xiaohongshu post template, RedNote carousel prompts, AI image prompts, Codex Skill, Agent Skill, 小红书图文, 小红书封面, 小红书运营, 内容创作工作流。
 
 ## 快速安装
 
@@ -24,6 +30,28 @@ git clone https://github.com/mythkiven/redbook-director-skill.git ~/.agents/skil
 ```text
 Use $redbook-director-skill. 帮我把这个选题做成 6 页小红书图文，输出风格判断、页面结构、图像提示词和发布文案。
 ```
+
+## English Quick Start
+
+Install the skill:
+
+```bash
+git clone https://github.com/mythkiven/redbook-director-skill.git ~/.agents/skills/redbook-director-skill
+```
+
+Use it as a Xiaohongshu / RedNote carousel generator:
+
+```text
+Use $redbook-director-skill. Turn this topic into a 6-page Xiaohongshu / RedNote carousel. Include the visual style rationale, page-by-page layout, AI image prompts, caption, hashtags, and review checklist.
+```
+
+Typical outputs:
+
+- Xiaohongshu / RedNote carousel strategy
+- cover hook and page-by-page visual direction
+- 3:4 image prompt templates for each page
+- caption, hashtags, and comment prompt
+- visual quality checklist for readability and premium design
 
 ## 封面示例
 
