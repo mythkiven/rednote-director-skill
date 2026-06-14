@@ -201,4 +201,4 @@ rednote-director-skill/
 
 ---
 
-基于 [ziguishian/xhs-visual-director-skill](https://github.com/ziguishian/xhs-visual-director-skill) 二次重构
+参考仓库：[ziguishian/xhs-visual-director-skill](https://github.com/ziguishian/xhs-visual-director-skill)

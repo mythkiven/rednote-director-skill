@@ -209,4 +209,4 @@ A solid output should:
 
 ---
 
-Forked and rebuilt from [ziguishian/xhs-visual-director-skill](https://github.com/ziguishian/xhs-visual-director-skill).
+Reference repository: [ziguishian/xhs-visual-director-skill](https://github.com/ziguishian/xhs-visual-director-skill)
